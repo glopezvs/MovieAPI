@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { check } from "express-validator";
 import UserController from "../controllers/UserController.js";
+import { checkRoles } from "../middlewares/authMiddleware.js";
 
 const router = Router();
 /**
@@ -54,7 +55,11 @@ router.get("/users", UserController.getAllUsers);
  */
 
 // Get a user by ID
-router.get("/users/:id", UserController.getUserById);
+router.get(
+  "/users/:id",
+  check("role").isIn(["ADMIN"]).withMessage("Invalid role."),
+  UserController.getUserById
+);
 
 // Register a new user
 /**
@@ -183,7 +188,7 @@ router.put(
       .withMessage(
         "minLength: 8, minLowercase: 1, minUppercase: 1, minNumbers: 1, minSymbols: 1"
       ),
-    check("role").isIn(["USER", "ADMIN"]).withMessage("Invalid role."),
+    check("role").isIn(["ADMIN"]).withMessage("Invalid role."),
   ],
   UserController.updateUser
 );
@@ -208,6 +213,10 @@ router.put(
  *       404:
  *         description: User not found
  */
-router.delete("/users/:id", UserController.deleteuser);
+router.delete(
+  "/users/:id",
+  check("role").isIn(["ADMIN"]).withMessage("Invalid role."),
+  UserController.deleteuser
+);
 
 export default router;

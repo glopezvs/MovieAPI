@@ -10,13 +10,8 @@ export interface IMovie {
     imdb?: number;
     rottenTomatoes?: number;
   };
-  comments?: IComment[];
 }
-export interface IComment {
-  user: string;
-  text: string;
-  createdAt: Date;
-}
+
 export interface IUser {
   id: number;
   name: string;

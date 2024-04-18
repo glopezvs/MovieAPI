@@ -55,11 +55,7 @@ router.get(
  *             schema:
  *               $ref: '#/components/schemas/MovieInput'
  */
-router.get(
-  "/movies/:id",
-  checkRoles(["USER", "ADMIN"]),
-  MovieController.getMovieById
-);
+router.get("/movies/:id", checkRoles(["ADMIN"]), MovieController.getMovieById);
 
 /**
  * @swagger
