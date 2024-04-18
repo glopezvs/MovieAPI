@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "description": "A thief who enters the dreams of others to steal their secrets from their subconscious.",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "image": "inception_poster.jpg",
+    "rating": {
+      "imdb": 8.8,
+      "rottenTomatoes": 87
+    }
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "genre": [
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+    "image": "shawshank_redemption_poster.jpg",
+    "rating": {
+      "imdb": 9.3,
+      "rottenTomatoes": 90
+    }
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "image": "dark_knight_poster.jpg",
+    "rating": {
+      "imdb": 9,
+      "rottenTomatoes": 94
+    }
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+    "image": "forrest_gump_poster.jpg",
+    "rating": {
+      "imdb": 8.8,
+      "rottenTomatoes": 71
+    }
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=sY1S34973zA",
+    "image": "godfather_poster.jpg",
+    "rating": {
+      "imdb": 9.2,
+      "rottenTomatoes": 98
+    }
+  },
+  {
+    "title": "Nomadland",
+    "year": 2020,
+    "description": "A woman in her sixties, after losing everything in the Great Recession, embarks on a journey through the American West, living as a van-dwelling modern-day nomad.",
+    "genre": [
+      "Drama"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=6sxCFZ8_d84",
+    "image": "nomadland_poster.jpg",
+    "rating": {
+      "imdb": 7.4,
+      "rottenTomatoes": 94
+    }
+  },
+  {
+    "id": "d3dd7b23-73c9-4765-873a-6a699c8e2d77",
+    "title": "Interstellar",
+    "year": 2014,
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "image": "no-image.jpg"
+  },
+  {
+    "id": "3f1ef6c4-400a-448f-87db-d2f905e82442",
+    "image": "no-image.jpg"
+  }
+]
